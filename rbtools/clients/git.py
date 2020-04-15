@@ -657,7 +657,7 @@ class GitClient(SCMClient):
                 diff_data += b'Cannot display: file marked as a binary type.\n'
                 diff_data += b'svn:mime-type = application/octet-stream\n'
             else:
-                diff_data += line
+                diff_data += line.decode('utf-8')
 
         return diff_data
 
