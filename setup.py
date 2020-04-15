@@ -37,7 +37,7 @@ except ImportError:
 from rbtools import get_package_version, is_release, VERSION
 
 
-PACKAGE_NAME = 'RBTools'
+PACKAGE_NAME = 'SL-RBTools'
 
 if is_release():
     download_url = "http://downloads.reviewboard.org/releases/%s/%s.%s/" % \
