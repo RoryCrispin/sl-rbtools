@@ -1,3 +1,9 @@
+What is this project
+====================
+This is a frozen version of RBTools 7 which predates the issues described in https://hellosplat.com/s/beanbag/tickets/4728/ 
+It also includes a fix for decosing unicode lines.
+
+
 About RBTools
 =============
 
